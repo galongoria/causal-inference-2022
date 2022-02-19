@@ -1,0 +1,62 @@
+\documentclass{article}
+
+% these packages let you do math
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% we need these packages for fancy R tables
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% these packages play with the spacing/margins of the document. Uncomment the commands on lines 16 and 17 to see what they do.
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{parskip}
+%\doublespacing
+%\geometry{margin=1.5in}
+
+% this package helps us with including images. Setting the graphics path makes it easier to refer to things in the \includegraphics command.
+\usepackage{graphicx}
+\graphicspath{ {../figures/} }
+
+% make some hyperlinks using the \href command
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+% set the author, title, and date of the document. \maketitle adds it to the document.
+\author{Ausin Longoria}
+\title{My Paper on NLSY97 Data}
+\date{Sping 2022}
+
+\begin{document}
+\maketitle
+
+\section{Incarceration Status Graph}
+
+This graph shows the proportion of individuals who were incarcerated in 2002. As you can see, a higher proportion of males were incarcerated overall. Mixed Race males were not included in the cleaned version of the data set; as a result, the mix race female bar is significantly higher than the other female race demographics. Black males had a significantly higher rate of incarceration, followed by Hispanic males and then Non-Black/Non-Hispanic males. The same inforation is shown in the table below this graph.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=.85\textwidth]{incarcerated_by_racegender.png}
+    \end{center}
+    \caption{Proportion Incarcerated in 2002 by Race and Gender}
+    \label{fig:graph}
+\end{figure}
+\input{../tables/incarcerated_by_racegender.tex}
+
+
+\newpage
+\section{Incarceration Status Regression Analysis}
+
+\input{../tables/regress_incarcerated_by_racegender.tex}
+
+This regression output describes the effect of race and gender on the probability of one's incarceration status. Black females is the omitted variable. Thus the constant tells us that being black increases the probability that someone will be incarcerated by 2 percent, holding all else fixed. Similarly, males are 2.8 percent more likely to be incarcerated than females, holding all else fixed. One thing to note is that the mixed race variable is not significant at the 5 percent level. This is likely the result of missing data for this group of individuals.
+
+\end{document}
