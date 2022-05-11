@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1645239355 "c:/Users/galon/causal-inference-2022/writing/paper1.tex" "paper1.pdf" "paper1" 1645239357
+["pdflatex"] 1648061494 "c:/Users/galon/causal-inference-2022/writing/paper1.tex" "paper1.pdf" "paper1" 1648061497
   "../figures//incarcerated_by_racegender.png" 1645050138 40333 b8c8ee4e93cf77f31f06aa50caab32ac ""
   "../tables/incarcerated_by_racegender.tex" 1645050437 491 619c8488ef2c9eb93fdf5e4fca93770b ""
   "../tables/regress_incarcerated_by_racegender.tex" 1645203286 1169 9d2777ab31228c816486d9ef33f1027a ""
-  "C:/Users/galon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1645217379 81760 910369822cd2d7c359b2482f4c0de4ca ""
+  "C:/Users/galon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1647888932 81939 3d80a3cba051aa49603173dafcdf1492 ""
   "C:/Users/galon/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1645032479 9769967 f55e8761c24f6b5925d03705c16e78a0 ""
   "C:/Users/galon/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/galon/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -101,10 +101,10 @@
   "C:/Users/galon/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636710260 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Users/galon/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/galon/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "c:/Users/galon/causal-inference-2022/writing/paper1.tex" 1645239350 2610 90b51eac37e69a55d627c10c20bfeec6 ""
-  "paper1.aux" 1645239357 1723 fe15c240189968360d12fe63dc509cbe "pdflatex"
-  "paper1.out" 1645239357 431 81070289fa1b68fbfa87d2b33cee5239 "pdflatex"
-  "paper1.tex" 1645239350 2610 90b51eac37e69a55d627c10c20bfeec6 ""
+  "c:/Users/galon/causal-inference-2022/writing/paper1.tex" 1645239399 2610 90b51eac37e69a55d627c10c20bfeec6 ""
+  "paper1.aux" 1648061496 1723 fe15c240189968360d12fe63dc509cbe "pdflatex"
+  "paper1.out" 1648061496 431 81070289fa1b68fbfa87d2b33cee5239 "pdflatex"
+  "paper1.tex" 1645239399 2610 90b51eac37e69a55d627c10c20bfeec6 ""
   (generated)
   "paper1.aux"
   "paper1.log"
